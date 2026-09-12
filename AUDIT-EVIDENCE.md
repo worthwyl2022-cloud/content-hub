@@ -2,7 +2,7 @@
 
 ## Snapshot
 
-- Repository: `worthwyl2022-cloud/content-hub`
+- Repository: `worthwyl2022-cloud/cranium-content-hub`
 - Default working branch observed: `main`
 - Commit count at inventory: `9`
 - Files at inventory: `11`
