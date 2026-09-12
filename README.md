@@ -1,48 +1,39 @@
-# Content Hub — Technical Documentation & Resources
+# WorthWyl Technical Documentation Hub
 
-## Overview
+This public hub presents the architecture, evidence boundaries, and deployment concepts behind the WorthWyl/Cranium engineering portfolio. Proprietary implementation repositories are private while acquisition diligence is in progress; public materials explain the system without exposing the source of the core control plane.
 
-This repository contains technical documentation, architectural guidance, and educational resources for enterprise software solutions.
+## Principal platform
 
-**Topics Covered:**
-- System architecture & design patterns
-- Enterprise integration strategies
-- Cloud infrastructure & DevOps practices
-- Security & compliance frameworks
-- Performance optimization techniques
+The portfolio’s central technical thesis is a governed control plane for AI systems:
 
----
+- **Cranium Core** governs authority transitions and evidence requirements.
+- **Cranium Synapse** defines attestation, risk-score, and intervention contracts.
+- **Cranium Kernel** provides receipt integrity, replay controls, atomic recovery, and governed memory.
+- **Cranium Ultra** integrates the Core and operating-environment surfaces for demonstration and verification.
 
-## Repository Contents
+Together, these components are intended to make AI-enabled actions auditable, bounded, and resistant to malformed, stale, replayed, or unauthorized transitions.
 
-The repository currently contains the following published materials:
+## Published materials
 
 - [Cranium Core case studies](./CRANIUM_CORE_CASE_STUDIES.md)
 - [Cranium Core deployment guide](./CRANIUM_CORE_DEPLOYMENT_GUIDE.md)
 - [Cranium Core whitepaper](./CRANIUM_CORE_WHITEPAPER.md)
 - [Security policy](./SECURITY.md)
 
-The links below are planned topic areas and are not published repository paths yet. They are intentionally not presented as available documents.
+## Evidence boundary
 
----
+Internal verification includes reproducible builds, adversarial authorization scenarios, signed receipt checks, replay and tamper rejection, atomic recovery testing, and machine-readable campaign receipts. These materials should be understood as engineering evidence, not as independent security certification or a financial valuation.
 
-## Quick Links
+## Acquisition diligence
 
-- Architecture patterns: planned topic area
-- Security guidelines: covered by [SECURITY.md](./SECURITY.md)
-- Cloud and infrastructure: covered by the [deployment guide](./CRANIUM_CORE_DEPLOYMENT_GUIDE.md)
-- Performance and scaling: covered by the technical material in the whitepaper and case studies
-
----
+Qualified reviewers may receive controlled access to private implementation repositories, a frozen commit manifest, a clean-room reproduction command, threat-model documentation, test fixtures, and artifact hashes. Public documentation intentionally avoids publishing proprietary source or sensitive cryptographic fixtures.
 
 ## Contact
 
-For technical inquiries:
+For technical or acquisition inquiries:
 
-📧 **worthwyl2022@gmail.com**  
-🌐 **worth-wyl-media-d9ead881.base44.app**  
-📞 **702-602-7543**
+- Email: worthwyl2022@gmail.com
+- Web: worth-wyl-media-d9ead881.base44.app
+- Phone: 702-602-7543
 
----
-
-**© 2026 WorthWyl Corp. All rights reserved.**
+© 2026 WorthWyl Corp. All rights reserved.
