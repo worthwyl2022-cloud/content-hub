@@ -15,16 +15,23 @@ This repository contains technical documentation, architectural guidance, and ed
 
 ## Repository Contents
 
-*Documentation coming soon. Check back for technical guides, best practices, and case studies.*
+The repository currently contains the following published materials:
+
+- [Cranium Core case studies](./CRANIUM_CORE_CASE_STUDIES.md)
+- [Cranium Core deployment guide](./CRANIUM_CORE_DEPLOYMENT_GUIDE.md)
+- [Cranium Core whitepaper](./CRANIUM_CORE_WHITEPAPER.md)
+- [Security policy](./SECURITY.md)
+
+The links below are planned topic areas and are not published repository paths yet. They are intentionally not presented as available documents.
 
 ---
 
 ## Quick Links
 
-- 📚 [Architecture Patterns](./docs/architecture)
-- 🔒 [Security Guidelines](./docs/security)
-- ☁️ [Cloud & Infrastructure](./docs/infrastructure)
-- 📊 [Performance & Scaling](./docs/performance)
+- Architecture patterns: planned topic area
+- Security guidelines: covered by [SECURITY.md](./SECURITY.md)
+- Cloud and infrastructure: covered by the [deployment guide](./CRANIUM_CORE_DEPLOYMENT_GUIDE.md)
+- Performance and scaling: covered by the technical material in the whitepaper and case studies
 
 ---
 
